@@ -18,7 +18,8 @@ ns4.timeweb.org
   ввести электронную почту и задать Hostname, вы можете указать ip-адрес виртуального сервера, если нет доменного имени.
   4) В конце установки вы увидите адрес для входа, логин и пароль.
 
-https://85.193.95.31:8083
-username: admin
-password: pJQusLaw4N
+
+https://85.193.95.31:8083<br/>
+username: admin<br/>
+password: pJQusLaw4N<br/>
 
