@@ -11,7 +11,7 @@ ns4.timeweb.org
 установлена Vestacp
 >>>
 1) Скачивайте последнюю версию VestaCP на виртуальный сервер:
-wget http://vestacp.com/pub/vst-install.sh
+$ wget http://vestacp.com/pub/vst-install.sh
 2) Запускайте скрипт установки:
 bash vst-install.sh --force
 3) Нужно подтвердить согласие на установку, вводите заглавную “Y” и жмите Enter, затем
