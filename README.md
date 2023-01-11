@@ -1,10 +1,10 @@
 # onelplus.ru
-оформлен через 1Gb.ru
-домен делегирован на:
-ns1.timeweb.ru 
-ns2.timeweb.ru 
-ns3.timeweb.org 
-ns4.timeweb.org
+оформлен через 1Gb.ru<br/>
+домен делегирован на:<br/>
+ns1.timeweb.ru <br/>
+ns2.timeweb.ru <br/>
+ns3.timeweb.org <br/>
+ns4.timeweb.org <br/>
 
 # mail.onelplus.ru
 -> 85.193.95.31 (TimeWeb Cloud - Польша)
