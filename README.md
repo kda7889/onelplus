@@ -1,11 +1,13 @@
-# onelplus.ru -> оформлен через 1Gb.ru
+# onelplus.ru
+оформлен через 1Gb.ru
 домен делегирован на:
 ns1.timeweb.ru 
 ns2.timeweb.ru 
 ns3.timeweb.org 
 ns4.timeweb.org
 
-mail.onelplus.ru -> 85.193.95.31 (TimeWeb Cloud - Польша)
+# mail.onelplus.ru
+-> 85.193.95.31 (TimeWeb Cloud - Польша)
 установлена Vestacp
 >>>
 1) Скачивайте последнюю версию VestaCP на виртуальный сервер:
