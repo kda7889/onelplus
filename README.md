@@ -33,7 +33,7 @@ password: yCvxmgbSLo<br/>
 Затем в консоли пишем:<br/>
 > v-list-mail-domain-dkim admin onelplus.ru
 <br/>
------BEGIN RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----<br/>
 MIICXAIBAAKBgQDpWrATLGIEPl8asZdVHjRVAuFoGtymwzAZscrOaldl2kPNNlg0
 PPiqgdidv7K9UQM9Xa8vr/c4mNwKdRqjAYCLqFdy7bKqoUqtBYzxQVccEHB6yh3m
 fNNrJlMdrpzYWWgthdXnA+2jEfx6jv5ZWP1sEiXl3kw2xdR8LzF4mx08UQIDAQAB
@@ -47,14 +47,14 @@ HSC3iuFFPhiUEOMURUpuZ0YLAyT6tHXXzlUGo1K5qSVpptRo3Gjh5zyd+Y0CQHwA
 L+qK9QXS955TPH7oCwdhC+zeC6NthNeGW4idp8VBvH4WXPa/0fgwcDEzsIBOx/7D
 MGEVaeL7XV0lI0T09gsCQEC3qqGDSBvXBsmgNgpw/Kq5Di86a9lAI0IwqhaeSdz1
 A+m2yxqR7lQuJ1zAWW723sMWYM7enQ9UV0sCM1SXYMA=
------END RSA PRIVATE KEY-----
+<br/>-----END RSA PRIVATE KEY-----
 <br/>
------BEGIN PUBLIC KEY-----
+-----BEGIN PUBLIC KEY-----<br/>
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpWrATLGIEPl8asZdVHjRVAuFo
 GtymwzAZscrOaldl2kPNNlg0PPiqgdidv7K9UQM9Xa8vr/c4mNwKdRqjAYCLqFdy
 7bKqoUqtBYzxQVccEHB6yh3mfNNrJlMdrpzYWWgthdXnA+2jEfx6jv5ZWP1sEiXl
 3kw2xdR8LzF4mx08UQIDAQAB
------END PUBLIC KEY-----
+<br/>-----END PUBLIC KEY-----
 <br/>
 
 ## DMS записи
@@ -108,6 +108,8 @@ mail.onelplus.ru
 
 85.193.95.31
 
+# создание пользователей
 
 >проверяем в консоли сервера "telnet smtp.gmail.com 25"
-если все ок, то создаем в Vestacp пользователей почты и тестируем
+если все ок, то создаем в Vestacp пользователей почты и тестируем<br/>
+если нет, то просим провайдера открыть порты<br/>
