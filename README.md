@@ -57,11 +57,11 @@ GtymwzAZscrOaldl2kPNNlg0PPiqgdidv7K9UQM9Xa8vr/c4mNwKdRqjAYCLqFdy
 -----END PUBLIC KEY-----
 <br/>
 
-# Идем в админку домена, и прописываем следующие DNS записи:
+## DMS записи
 <br/>
+добавляем в админке домена на хостинге
 
 ### для onelplus.ru
-
 
 A
 
@@ -107,3 +107,7 @@ A
 mail.onelplus.ru
 
 85.193.95.31
+
+
+>проверяем в консоли сервера "telnet smtp.gmail.com 25"
+если все ок, то создаем в Vestacp пользователей почты и тестируем
