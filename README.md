@@ -31,7 +31,7 @@ password: yCvxmgbSLo<br/>
 Стираем из Vestacp домены в разделе Web, DNS.<br/>
 Добавляем в раздел почта mail.onelplus.ru<br/>
 Затем в консоли пишем:<br/>
->root@85:~# v-list-mail-domain-dkim admin onelplus.ru
+> v-list-mail-domain-dkim admin onelplus.ru
 <br/>
 -----BEGIN RSA PRIVATE KEY-----
 MIICXAIBAAKBgQDpWrATLGIEPl8asZdVHjRVAuFoGtymwzAZscrOaldl2kPNNlg0
@@ -56,8 +56,13 @@ GtymwzAZscrOaldl2kPNNlg0PPiqgdidv7K9UQM9Xa8vr/c4mNwKdRqjAYCLqFdy
 3kw2xdR8LzF4mx08UQIDAQAB
 -----END PUBLIC KEY-----
 <br/>
+
 # Идем в админку домена, и прописываем следующие DNS записи:
+<br/>
+
 ### для onelplus.ru
+
+
 A
 
 onelplus.ru
