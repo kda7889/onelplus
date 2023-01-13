@@ -132,3 +132,7 @@ mail.onelplus.ru
 добавляем в действующий gmail аккаунт почту на нашем домене <br/>
 >SMTP mail.onelplus.ru Защищенное соединение через порт 587 <br/>
 >POP mail.onelplus.ru Соединение через порт 110 <br/>
+
+
+# 1C
+base: paseNk39DD4En!
