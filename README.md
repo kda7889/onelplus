@@ -7,9 +7,9 @@ ns3.timeweb.org <br/>
 ns4.timeweb.org <br/>
 
 
-    https://onelplus.ru:1525<br/>
-    username: admin<br/>
-    password: byeoRhKTL2<br/>
+https://onelplus.ru:1525<br/>
+username: admin<br/>
+password: byeoRhKTL2<br/>
 
 
 
