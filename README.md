@@ -6,6 +6,13 @@ ns2.timeweb.ru <br/>
 ns3.timeweb.org <br/>
 ns4.timeweb.org <br/>
 
+
+    https://onelplus.ru:1525<br/>
+    username: admin<br/>
+    password: byeoRhKTL2<br/>
+
+
+
 # mail.onelplus.ru
 -> 85.193.95.31 (TimeWeb Cloud - Польша)
 Ubuntu 18.04 LTS
