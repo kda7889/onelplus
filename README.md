@@ -147,20 +147,28 @@ system_filter = /etc/exim4/filter
 # vpn l2tp server
 >wget https://git.io/vpnsetup -O vpnsetup.sh  <br/>
 >sudo nano -w vpnsetup.sh  <br/>
- <br/>
 YOUR_IPSEC_PSK=' Защищенный PSK IPsec должен состоять мин из 20 случайных символов.' <br/>
 YOUR_USERNAME=' Ваш логин для VPN' <br/>
 YOUR_PASSWORD=' Ваш пароль для VPN' <br/>
+>sudo sh vpnsetup.sh  <br/>
+<br/>
+Server IP: l2tp.onelplus.ru [85.193.95.31] <br/>
+IPsec PSK: L2TP_p@ssw0rd! <br/>
+Username: l2tp_user1 <br/>
+Password: password1 <br/>
  <br/>
->sudo sh vpnsetup.sh
+ 
+  Details for IKEv2 mode: <br/>
+VPN server address: 85.193.95.31 <br/>
+VPN client name: vpnclient <br/>
  <br/>
+Client configuration is available at: <br/>
+/root/vpnclient.p12 (for Windows & Linux) <br/>
+/root/vpnclient.sswan (for Android) <br/>
+/root/vpnclient.mobileconfig (for iOS & macOS) <br/>
  <br/>
-Server IP: l2tp.onelplus.ru [85.193.95.31]
-IPsec PSK: L2TP_p@ssw0rd!
-Username: l2tp_user1
-Password: password1
- [tgstr
- sdfs]
-  
+Next steps: Configure IKEv2 clients. See: <br/>
+https://vpnsetup.net/clients <br/>
+
 # 1C
 base: paseNk39DD4En!
