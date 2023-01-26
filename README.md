@@ -144,5 +144,23 @@ system_filter = /etc/exim4/filter
 >headers remove X-PHP-Originating-Script <br/>
 >headers remove Received <br/>
 
+# vpn l2tp server
+>wget https://git.io/vpnsetup -O vpnsetup.sh  <br/>
+>sudo nano -w vpnsetup.sh  <br/>
+ <br/>
+YOUR_IPSEC_PSK=' Защищенный PSK IPsec должен состоять мин из 20 случайных символов.' <br/>
+YOUR_USERNAME=' Ваш логин для VPN' <br/>
+YOUR_PASSWORD=' Ваш пароль для VPN' <br/>
+ <br/>
+>sudo sh vpnsetup.sh
+ <br/>
+ <br/>
+Server IP: l2tp.onelplus.ru [85.193.95.31]
+IPsec PSK: L2TP_p@ssw0rd!
+Username: l2tp_user1
+Password: password1
+ [tgstr
+ sdfs]
+  
 # 1C
 base: paseNk39DD4En!
