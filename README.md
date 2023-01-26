@@ -139,8 +139,11 @@ mail.onelplus.ru
 <br/>
 system_filter = /etc/exim4/filter
 <br/>
+
 в сам файл /etc/exim4/filter
+
 >headers remove X-PHP-Originating-Script
+
 >headers remove Received
 
 # 1C
