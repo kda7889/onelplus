@@ -133,6 +133,15 @@ mail.onelplus.ru
 >SMTP mail.onelplus.ru Защищенное соединение через порт 587 <br/>
 >POP mail.onelplus.ru Соединение через порт 110 <br/>
 
+# чистка exim4, чтобы письма не передавали локальный IP
+добавляем в кофиг
+>/etc/exim4/exim4.conf.template
+<br/>
+system_filter = /etc/exim4/filter
+<br/>
+в сам файл /etc/exim4/filter
+>headers remove X-PHP-Originating-Script <br/>
+>headers remove Received
 
 # 1C
 base: paseNk39DD4En!
