@@ -147,9 +147,11 @@ system_filter = /etc/exim4/filter
 # vpn l2tp server
 >wget https://git.io/vpnsetup -O vpnsetup.sh  <br/>
 >sudo nano -w vpnsetup.sh  <br/>
+
 YOUR_IPSEC_PSK=' Защищенный PSK IPsec должен состоять мин из 20 случайных символов.' <br/>
 YOUR_USERNAME=' Ваш логин для VPN' <br/>
 YOUR_PASSWORD=' Ваш пароль для VPN' <br/>
+
 >sudo sh vpnsetup.sh  <br/>
 <br/>
 Server IP: l2tp.onelplus.ru [85.193.95.31] <br/>
