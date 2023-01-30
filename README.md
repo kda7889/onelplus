@@ -172,7 +172,7 @@ Client configuration is available at: <br/>
 Next steps: Configure IKEv2 clients. See: <br/>
 https://vpnsetup.net/clients <br/>
 
-# proxy server
+# proxy server l2tp.onelplus.ru
 >wget --no-check-certificate https://raw.github.com/SnoyIatk/3proxy/master/3proxyinstall.sh <br/>
 >chmod +x 3proxyinstall.sh <br/>
 >./3proxyinstall.sh <br/>
@@ -185,6 +185,12 @@ https://vpnsetup.net/clients <br/>
 
 Запускаем: <br/>
 >/etc/init.d/3proxy start
+
+<br/>
+HTTP(S) port 8055 <br/>
+SOCKS5 port 7055 <br/>
+proxy_user1 <br/>
+password1<br/>
 
 # 1C
 base: paseNk39DD4En!
