@@ -172,5 +172,15 @@ Client configuration is available at: <br/>
 Next steps: Configure IKEv2 clients. See: <br/>
 https://vpnsetup.net/clients <br/>
 
+# proxy server
+>wget --no-check-certificate https://raw.github.com/SnoyIatk/3proxy/master/3proxyinstall.sh <br/>
+>chmod +x 3proxyinstall.sh <br/>
+>./3proxyinstall.sh <br/>
+Добавляем логин и пароль: <br/>
+>sudo nano /etc/3proxy/.proxyauth <br/>
+Меняем порты: <br/>
+>sudo nano /etc/3proxy/3proxy.cfg <br/>
+Запускаем: <br/>
+>/etc/init.d/3proxy start
 # 1C
 base: paseNk39DD4En!
